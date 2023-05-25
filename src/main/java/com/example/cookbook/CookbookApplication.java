@@ -5,11 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableJpaRepositories(basePackages = "com.example.cookbook.repository")
+@EnableJpaRepositories(basePackages = "com.example.cookbook")
 public class CookbookApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(CookbookApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(CookbookApplication.class, args);
+    }
 }

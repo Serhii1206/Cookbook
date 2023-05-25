@@ -1,10 +1,9 @@
 package com.example.cookbook.service;
 
-import java.util.List;
-import java.util.Optional;
-import org.springframework.data.domain.PageRequest;
 import com.example.cookbook.model.Cookbook;
 import com.example.cookbook.model.Recipe;
+import java.util.List;
+import org.springframework.data.domain.PageRequest;
 
 public interface CookbookService {
     Cookbook save(Cookbook cookbook);

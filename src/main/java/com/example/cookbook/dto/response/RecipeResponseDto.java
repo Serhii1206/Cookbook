@@ -1,8 +1,8 @@
 package com.example.cookbook.dto.response;
 
+import com.example.cookbook.model.Recipe;
 import java.time.LocalDateTime;
 import lombok.Data;
-import com.example.cookbook.model.Recipe;
 
 @Data
 public class RecipeResponseDto {
